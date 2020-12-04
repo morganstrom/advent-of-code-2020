@@ -17,6 +17,9 @@ int main(int argc, char *argv[]) {
 		case 2:
 			day2("data/day2.txt");
 			break;
+		case 3:
+			day3("data/day3.txt");
+			break;
 	}
 	return 0;
 }
