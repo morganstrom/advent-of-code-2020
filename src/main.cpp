@@ -1,8 +1,7 @@
 #include <iostream>
 #include <string>
 #include <stdexcept>
-#include "day1.h"
-#include "day2.h"
+#include "days.h"
 
 int main(int argc, char *argv[]) {
 	if (argc < 2) {
