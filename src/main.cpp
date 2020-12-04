@@ -16,7 +16,7 @@ int main(int argc, char *argv[]) {
 			day1("data/day1.txt");
 			break;
 		case 2:
-			day2("data/day2_test.txt");
+			day2("data/day2.txt");
 			break;
 	}
 	return 0;
