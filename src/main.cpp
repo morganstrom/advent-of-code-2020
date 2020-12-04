@@ -1,8 +1,7 @@
 #include <iostream>
 #include <string>
 #include <stdexcept>
-#include "day1.h"
-#include "day2.h"
+#include "days.h"
 
 int main(int argc, char *argv[]) {
 	if (argc < 2) {
@@ -19,7 +18,10 @@ int main(int argc, char *argv[]) {
 			day1("data/day1.txt");
 			break;
 		case 2:
-			day2("data/day2_test.txt");
+			day2("data/day2.txt");
+			break;
+		case 3:
+			day3("data/day3.txt");
 			break;
 		default:
 			std::cout << "No solution (yet)" << std::endl;
