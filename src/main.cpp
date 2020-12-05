@@ -15,13 +15,13 @@ int main(int argc, char *argv[]) {
 			std::cout << "Days aren't zero-indexed, nerd!" << std::endl;
 			break;
 		case 1:
-			day1("data/day1.txt");
+			day1("./data/day1.txt");
 			break;
 		case 2:
-			day2("data/day2.txt");
+			day2("./data/day2.txt");
 			break;
 		case 3:
-			day3("data/day3.txt");
+			day3("./data/day3.txt");
 			break;
 		case 4:
 			day4("data/day4_test.txt");
