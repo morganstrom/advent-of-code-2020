@@ -4,5 +4,6 @@
 int day1(std::string inputPath);
 int day2(std::string inputPath);
 int day3(std::string inputPath);
+int day4(std::string inputPath);
 
 #endif
