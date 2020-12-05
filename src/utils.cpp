@@ -11,5 +11,6 @@ std::vector<std::string> readFileToStringVector(std::string path) {
 	while (std::getline(inputfile, line)) {
 		stringArray.push_back(line);
 	}
+	inputfile.close();
 	return stringArray;
 }
