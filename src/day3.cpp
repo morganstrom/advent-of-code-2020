@@ -3,7 +3,7 @@
 #include <vector>
 #include "utils.h"
 
-long countTrees(std::vector<std::string> map, int stepsRight, int stepsDown) {
+long countTrees(const std::vector<std::string>& map, int stepsRight, int stepsDown) {
 	int numberOfRows = map.size();
 	int numberOfCols = map[0].size();
 	int col = 0;
