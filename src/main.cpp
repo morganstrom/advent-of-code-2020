@@ -26,6 +26,9 @@ int main(int argc, char *argv[]) {
 		case 4:
 			day4("data/day4_test.txt");
 			break;
+		case 5:
+			day5("data/day5.txt");
+			break;
 		default:
 			std::cout << "No solution (yet)" << std::endl;
 	}
